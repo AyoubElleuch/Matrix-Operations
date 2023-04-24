@@ -318,7 +318,7 @@ int main(){
         for(int i=0; i<nbpoints+1; i++){
             double x = ts[0] + i * step;
             double y = 0;
-            // Go over the coefficients of and calculate the value of y
+            // Go over the coefficients and calculate the value of y
             for(int j = int(coefficients.size())-1; j>=0; j--){
                 y = y + coefficients[j]*pow(x, j);
             }
