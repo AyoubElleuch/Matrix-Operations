@@ -295,8 +295,8 @@ int main(){
 
     if(pipe!=NULL){
         // Set of points
-        vector<double> ts = {-4, -2, 0, 2};
-        vector<double> bs = {0, 3.7, -1, 8};
+        vector<double> ts = {-2.5, -2, -1.5, -1, -0.5, 0, 0.5, 1, 1.5, 2, 2.5};
+        vector<double> bs = {1.8, 2.3, 2.05, 1.4, 0.57, -0.32, -0.42, -0.41, 0.62, 2.7, 6.1};
 
         // Degree of the polynomial (3rd degree in this case)
         int deg = 3;
